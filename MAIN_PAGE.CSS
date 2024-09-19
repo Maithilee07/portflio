@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 100%;
+}
+body{
+    background-color: black;
+    font-size: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+#home-button{
+    width: 5rem;
+    margin-top: 2.5rem;
+    margin-left: 3.125;
+    cursor: pointer;
+    margin-right: 3.75rem;
+}
+.header{
+    width: 62.5rem;
+    height: 3.75rem;
+    background-color: #D9D9D9;
+    border-radius: 3.125rem;
+     opacity: 50%;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#n1,#n2,#n3,#n4{
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      font-size: 1.563rem;
+      text-decoration: none;
+      margin-inline: 3.125rem;
+
+       
+}
+.t1,.t2,.t3,.t4{
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      font-size: 3.125rem;
+      font-weight: 400;
+      margin-left: 500px;
+      
+      
+      
+}
+.t1{
+ color: #5BB8BE;
+}
+.t2{
+    color: #C73535;
+}
+.t3{
+    color: #B633D7;
+}
+.t4{
+    color: #F31919;
+}
+.button{
+    width: 9.375rem;
+    height: 3.125rem;
+    background-color: #38C7E7;
+    border-radius: 3.125rem;
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      font-weight: 900;
+      margin-left: 36.25rem;
+      margin-top: 1.563rem;
+}   
+
+.find-me{
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      color: #CAB7B7;
+      font-size: 1.25rem;
+      margin-left: 6.25rem;
+      margin-top: 6.25rem;
+}
+.icon{
+  font-size: 3.125rem;
+  margin-left: 1.25rem;
+}
+#mobile-bar{
+    margin-left: 55.625rem;
+     cursor: pointer;
+     position: absolute;
+    
+}
+.bar{
+    width: 2.938rem;
+    height: 0.438rem;
+    background-color: #CF5ADA;
+    transition: 0.5s ease;
+
+}
+#bar1{
+    margin-bottom: 0.313rem;
+}
+#bar3{
+    margin-top: 0.313rem;
+}
+.icon-x #bar1{
+    transform: translateY(14PX) rotate(-50deg);
+}
+.icon-x #bar3{
+    transform: translateY(-12px) rotate(50deg);
+}
+.icon-x #bar2{
+    opacity: 0;
+}
+.mobile{
+    display: none;
+    position: absolute;
+}
+
+#mobile-links{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.show{
+    display: none;
+}
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      font-size: 3.125rem;
+      font-weight: 900;
+      color: #DD5454;
+      margin-left: 3.125rem;
+      margin-top: 1.875rem;
+      
+}
+
+.paragraph{
+    width: 700px;
+    height: 100px;
+    color: #DAAFAF;
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+    
+    .lexend-mega-<uniquifier> {
+      font-family: "Lexend Mega", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+      
+}
+.girlpic{
+    width: 36rem;
+    height: 46.938rem;
+}
+.skills{
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      font-size: 3.125rem;
+      font-weight: 900;
+      color: #DD5454;
+      margin-left: 3.125rem;
+      margin-top: 1.875rem;
+      cursor: pointer;
+
+}
+.skillgrid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.list{
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      color: #E2CECE;
+      margin: 1.875rem;
+      
+
+}
+#l1,#l2,#l3,#l4,#l5{
+    margin-top: 3.75rem;
+}
+.color1,.color2,.color3,.color4,.color5{
+    margin-top: 3.125rem;
+}
+.color1{    
+    width: 50rem;
+    height: 1.875rem;
+    border: 0.125REM;
+    border-radius:3.125REM;
+    background-image: linear-gradient(TO RIGHT, #532157 89%,#B348BD 99%);
+
+}
+.color2{
+    width: 50rem;
+    height: 1.875rem;
+    border: 0.125REM;
+    border-radius:3.125REM;
+    background-image: linear-gradient(to RIGHT,#532157 83%,#B348BD 95%);
+}
+.color3{
+    width: 50rem;
+    height: 1.875rem;
+    border: 0.125REM;
+    border-radius:3.125REM;
+    background-image: linear-gradient(to RIGHT,#532157 84%,#B348BD 98%);
+}
+.color4{
+    width: 50rem;
+    height: 1.875rem;
+    border: 0.125REM;
+    border-radius:3.125REM;
+    background-image: linear-gradient(to RIGHT,#532157 58%, #B348BD 80%);
+}
+.color5{
+    width: 50rem;
+    height: 1.875rem;
+    border: 0.125REM;
+    border-radius:3.125REM;
+    background-image: linear-gradient(to RIGHT, #532157 64%, #B348BD 86%);
+}
+
+.project{
+    .mochiy-pop-one-regular {
+        font-family: "Mochiy Pop One", system-ui;
+        font-style: normal;
+      }
+      font-size: 3.125rem;
+      font-weight: 900;
+      color: #DD5454;
+      margin-left: 3.125rem;
+      margin-top: 1.875rem;
+      cursor: pointer;
+}
+.viewbutton{
+    width: 6.25rem;
+    height: 3.125rem;
+    font-size: 1.875rem;
+    background-color: #4F52E2;
+    margin-left: 56.25rem;
+    margin-top: 3.125rem;
+    
+}
+@media(max-width:1564px){
+    html{
+        font-size: 130%;
+    }
+}
+@media(max-width 1100px){
+ html{
+    font-size: 90%;
+ }
+}
+@media(max-width 800px){
+    html{
+        font-size: 70%; 
+    }
+}
+@media(max-width 676px){
+    html{
+        font-size: 50%;
+    }
+    .mobile{
+        display: contents;
+    }
+    
+}
+@media(min-width 480px){
+    
+}
+@media(min-width 400px){
+    
+}@media(min-width 1100px){
+    
+}
